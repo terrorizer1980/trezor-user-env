@@ -25,7 +25,7 @@ ROOT_DIR = Path(__file__).parent.parent.resolve()
 #   otherwise there may appear weird race conditions in communications.
 # When not going through bridge but webusb, there is no need for it,
 #   but we can skip bridge only when doing initial setup before test.
-SLEEP = 0.251
+SLEEP = 0.101
 
 # makes Trezor One emulator larger
 TREZOR_ONE_OLED_SCALE = 2
